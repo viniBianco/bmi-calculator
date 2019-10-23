@@ -1,0 +1,10 @@
+<application>
+  <component name="GithubAccounts">
+    <account id="aeba227c-ab2e-4a66-a941-0e0be5046bbb" name="lamezon">
+      <server host="github.com" />
+    </account>
+    <account id="3c899087-ab99-40c2-b237-c8f7ec25d129" name="lamezon">
+      <server host="github.com" />
+    </account>
+  </component>
+</application>
