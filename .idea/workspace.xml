@@ -6,15 +6,16 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1355807b-32ea-4cb9-a453-9bfe86f77427" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1355807b-32ea-4cb9-a453-9bfe86f77427" name="Default Changelist" comment="First commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -62,6 +63,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.22558594" />
     <property name="project.structure.side.proportion" value="0.2768647" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 8.5.47" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.47" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
@@ -156,12 +158,24 @@
       <option name="presentableId" value="Default" />
       <updated>1572197439934</updated>
       <workItem from="1572197441313" duration="2511000" />
-      <workItem from="1572202513553" duration="1795000" />
+      <workItem from="1572202513553" duration="2976000" />
     </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1572213976982</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572213976982</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="313" y="59" width="800" height="684" key="#Project_Structure" timestamp="1572202315686">
@@ -224,10 +238,14 @@
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="301" y="143" width="824" height="515" key="IDE.errors.dialog/70.27.1296.741@70.27.1296.741" timestamp="1572197461221" />
-    <state x="201" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1572197548228">
+    <state x="201" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1572213839284">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state x="201" y="27" width="1024" height="741" key="SettingsEditor/70.27.1296.741@70.27.1296.741" timestamp="1572197548228" />
+    <state x="201" y="27" width="1024" height="741" key="SettingsEditor/70.27.1296.741@70.27.1296.741" timestamp="1572213839284" />
+    <state x="313" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1572213997864">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state x="313" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/70.27.1296.741@70.27.1296.741" timestamp="1572213997864" />
     <state x="366" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1572202513502">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
