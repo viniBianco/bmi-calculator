@@ -38,14 +38,13 @@ public class LoginController extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
+		
 		try {
-			System.out.printf("0");
 			request.login(username, password);
-			System.out.printf("1");
-			HttpSession session = request.getSession();
-			System.out.printf("2");
-			session.setAttribute("username", request.getUserPrincipal().getName());
 
+			HttpSession session = request.getSession();
+			session.setAttribute("username", request.getUserPrincipal().getName());
+			
 			if(request.isUserInRole(Constants.ADMIN)) {
 				String address = "a";
 				response.sendRedirect(address);

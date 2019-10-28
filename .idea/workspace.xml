@@ -2,19 +2,20 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="bmi-calculator:war exploded" />
+      <artifact name="bmi-calculator:war" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="268bde03-af62-4c2f-816c-a57a37f47e5e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/edu/utfpr/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1355807b-32ea-4cb9-a453-9bfe86f77427" name="Default Changelist" comment="First commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -30,16 +31,6 @@
     <expand />
     <select />
   </component>
-  <component name="DockerExecCommand">
-    <ExecCommand>
-      <option name="command" value="/bin/bash" />
-      <option name="imageId" value="mariadb" />
-    </ExecCommand>
-    <ExecCommand>
-      <option name="command" value="/bin/bash" />
-      <option name="imageId" value="adminer" />
-    </ExecCommand>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="bmi-calculator" />
   </component>
@@ -53,14 +44,14 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectId" id="1SXFSar82Pr88OcQCI7a8mXosV6" />
+  <component name="ProjectId" id="1SnRaqa8lt4GH2v1dA9H7eMyNJN" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mariadb" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -69,24 +60,24 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.22558594" />
-    <property name="project.structure.side.proportion" value="0.3555811" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="project.structure.side.proportion" value="0.2768647" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat">
-    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.47" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
-      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.47" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.47" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/bmi_calculator_war/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="bmi-calculator:war exploded">
+        <artifact name="bmi-calculator:war">
           <settings>
-            <option name="CONTEXT_PATH" value="/calculadora" />
+            <option name="CONTEXT_PATH" value="/bmi_calculator_war" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_bmi-calculator_3" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_bmi-calculator" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -94,7 +85,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="37559" />
+        <option name="DEBUG_PORT" value="32887" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -144,40 +135,15 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="bmi-calculator:war exploded" />
+          <artifact name="bmi-calculator:war" />
         </option>
       </method>
     </configuration>
-    <configuration name="Docker" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="services">
-            <list>
-              <option value="db" />
-              <option value="adminer" />
-            </list>
-          </option>
-          <option name="sourceFilePath" value="docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Docker.Docker" />
-      <item itemvalue="Tomcat Server.Tomcat" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Docker.Docker" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
-        <serviceView>
-          <option name="contentProportion" value="0.22075687" />
-        </serviceView>
+        <serviceView />
       </list>
     </option>
   </component>
@@ -186,112 +152,103 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="268bde03-af62-4c2f-816c-a57a37f47e5e" name="Default Changelist" comment="" />
-      <created>1571702034186</created>
+      <changelist id="1355807b-32ea-4cb9-a453-9bfe86f77427" name="Default Changelist" comment="" />
+      <created>1572197439934</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1571702034186</updated>
-      <workItem from="1571702038141" duration="3822000" />
-      <workItem from="1571706105341" duration="444000" />
-      <workItem from="1571709719538" duration="1462000" />
-      <workItem from="1571783497284" duration="4796000" />
+      <updated>1572197439934</updated>
+      <workItem from="1572197441313" duration="2511000" />
+      <workItem from="1572202513553" duration="2976000" />
     </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1572213976982</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572213976982</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="313" y="58" width="800" height="684" key="#Tomcat_Server" timestamp="1571703353767">
+    <state x="313" y="59" width="800" height="684" key="#Project_Structure" timestamp="1572202315686">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state x="313" y="58" width="800" height="684" key="#Tomcat_Server/70.27.1296.741@70.27.1296.741" timestamp="1571703353767" />
-    <state x="484" y="83" width="1182" height="774" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1571786117763">
-      <screen x="70" y="34" width="1850" height="1046" />
-    </state>
-    <state x="360" y="62" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1296.741@70.27.1296.741" timestamp="1571711475779" />
-    <state x="484" y="83" width="1182" height="774" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.34.1850.1046@70.34.1850.1046" timestamp="1571786117763" />
-    <state x="360" y="202" width="705" height="398" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1571703997318">
+    <state x="313" y="59" width="800" height="684" key="#Project_Structure/70.27.1296.741@70.27.1296.741" timestamp="1572202315686" />
+    <state x="176" y="55" width="921" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1572202858253">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state x="360" y="202" width="705" height="398" key="#com.intellij.fileTypes.FileTypeChooser/70.27.1296.741@70.27.1296.741" timestamp="1571703997318" />
-    <state x="377" y="120" width="671" height="561" key="#docker-compose.yml:_Compose_Deployment" timestamp="1571704038626">
+    <state x="176" y="55" width="921" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1296.741@70.27.1296.741" timestamp="1572202858253" />
+    <state width="854" height="332" key="GridCell.Tab.0.bottom" timestamp="1572212328442">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state x="377" y="120" width="671" height="561" key="#docker-compose.yml:_Compose_Deployment/70.27.1296.741@70.27.1296.741" timestamp="1571704038626" />
-    <state x="496" y="143" width="424" height="520" key="FileChooserDialogImpl" timestamp="1571703351961">
+    <state width="854" height="332" key="GridCell.Tab.0.bottom/70.27.1296.741@70.27.1296.741" timestamp="1572212328442" />
+    <state width="854" height="332" key="GridCell.Tab.0.center" timestamp="1572212328441">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state x="496" y="143" width="424" height="520" key="FileChooserDialogImpl/70.27.1296.741@70.27.1296.741" timestamp="1571703351961" />
-    <state width="1358" height="447" key="GridCell.Tab.0.bottom" timestamp="1571786900290">
-      <screen x="70" y="34" width="1850" height="1046" />
+    <state width="854" height="332" key="GridCell.Tab.0.center/70.27.1296.741@70.27.1296.741" timestamp="1572212328441" />
+    <state width="854" height="332" key="GridCell.Tab.0.left" timestamp="1572212328439">
+      <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="911" height="261" key="GridCell.Tab.0.bottom/70.27.1296.741@70.27.1296.741" timestamp="1571711762245" />
-    <state width="1358" height="447" key="GridCell.Tab.0.bottom/70.34.1850.1046@70.34.1850.1046" timestamp="1571786900290" />
-    <state width="1358" height="447" key="GridCell.Tab.0.center" timestamp="1571786900289">
-      <screen x="70" y="34" width="1850" height="1046" />
+    <state width="854" height="332" key="GridCell.Tab.0.left/70.27.1296.741@70.27.1296.741" timestamp="1572212328439" />
+    <state width="854" height="332" key="GridCell.Tab.0.right" timestamp="1572212328442">
+      <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="911" height="261" key="GridCell.Tab.0.center/70.27.1296.741@70.27.1296.741" timestamp="1571711762244" />
-    <state width="1358" height="447" key="GridCell.Tab.0.center/70.34.1850.1046@70.34.1850.1046" timestamp="1571786900289" />
-    <state width="1358" height="447" key="GridCell.Tab.0.left" timestamp="1571786900288">
-      <screen x="70" y="34" width="1850" height="1046" />
+    <state width="854" height="332" key="GridCell.Tab.0.right/70.27.1296.741@70.27.1296.741" timestamp="1572212328442" />
+    <state width="854" height="332" key="GridCell.Tab.1.bottom" timestamp="1572212328443">
+      <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="911" height="261" key="GridCell.Tab.0.left/70.27.1296.741@70.27.1296.741" timestamp="1571711762244" />
-    <state width="1358" height="447" key="GridCell.Tab.0.left/70.34.1850.1046@70.34.1850.1046" timestamp="1571786900288" />
-    <state width="1358" height="447" key="GridCell.Tab.0.right" timestamp="1571786900289">
-      <screen x="70" y="34" width="1850" height="1046" />
+    <state width="854" height="332" key="GridCell.Tab.1.bottom/70.27.1296.741@70.27.1296.741" timestamp="1572212328443" />
+    <state width="854" height="332" key="GridCell.Tab.1.center" timestamp="1572212328442">
+      <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="911" height="261" key="GridCell.Tab.0.right/70.27.1296.741@70.27.1296.741" timestamp="1571711762244" />
-    <state width="1358" height="447" key="GridCell.Tab.0.right/70.34.1850.1046@70.34.1850.1046" timestamp="1571786900289" />
-    <state width="1358" height="447" key="GridCell.Tab.1.bottom" timestamp="1571786900291">
-      <screen x="70" y="34" width="1850" height="1046" />
+    <state width="854" height="332" key="GridCell.Tab.1.center/70.27.1296.741@70.27.1296.741" timestamp="1572212328442" />
+    <state width="854" height="332" key="GridCell.Tab.1.left" timestamp="1572212328442">
+      <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="911" height="261" key="GridCell.Tab.1.bottom/70.27.1296.741@70.27.1296.741" timestamp="1571711762246" />
-    <state width="1358" height="447" key="GridCell.Tab.1.bottom/70.34.1850.1046@70.34.1850.1046" timestamp="1571786900291" />
-    <state width="1358" height="447" key="GridCell.Tab.1.center" timestamp="1571786900290">
-      <screen x="70" y="34" width="1850" height="1046" />
+    <state width="854" height="332" key="GridCell.Tab.1.left/70.27.1296.741@70.27.1296.741" timestamp="1572212328442" />
+    <state width="854" height="332" key="GridCell.Tab.1.right" timestamp="1572212328443">
+      <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="911" height="261" key="GridCell.Tab.1.center/70.27.1296.741@70.27.1296.741" timestamp="1571711762245" />
-    <state width="1358" height="447" key="GridCell.Tab.1.center/70.34.1850.1046@70.34.1850.1046" timestamp="1571786900290" />
-    <state width="1358" height="447" key="GridCell.Tab.1.left" timestamp="1571786900290">
-      <screen x="70" y="34" width="1850" height="1046" />
+    <state width="854" height="332" key="GridCell.Tab.1.right/70.27.1296.741@70.27.1296.741" timestamp="1572212328443" />
+    <state width="854" height="332" key="GridCell.Tab.2.bottom" timestamp="1572212328444">
+      <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="911" height="261" key="GridCell.Tab.1.left/70.27.1296.741@70.27.1296.741" timestamp="1571711762245" />
-    <state width="1358" height="447" key="GridCell.Tab.1.left/70.34.1850.1046@70.34.1850.1046" timestamp="1571786900290" />
-    <state width="1358" height="447" key="GridCell.Tab.1.right" timestamp="1571786900291">
-      <screen x="70" y="34" width="1850" height="1046" />
+    <state width="854" height="332" key="GridCell.Tab.2.bottom/70.27.1296.741@70.27.1296.741" timestamp="1572212328444" />
+    <state width="854" height="332" key="GridCell.Tab.2.center" timestamp="1572212328443">
+      <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="911" height="261" key="GridCell.Tab.1.right/70.27.1296.741@70.27.1296.741" timestamp="1571711762246" />
-    <state width="1358" height="447" key="GridCell.Tab.1.right/70.34.1850.1046@70.34.1850.1046" timestamp="1571786900291" />
-    <state width="1358" height="447" key="GridCell.Tab.2.bottom" timestamp="1571786900293">
-      <screen x="70" y="34" width="1850" height="1046" />
+    <state width="854" height="332" key="GridCell.Tab.2.center/70.27.1296.741@70.27.1296.741" timestamp="1572212328443" />
+    <state width="854" height="332" key="GridCell.Tab.2.left" timestamp="1572212328443">
+      <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="911" height="261" key="GridCell.Tab.2.bottom/70.27.1296.741@70.27.1296.741" timestamp="1571711762248" />
-    <state width="1358" height="447" key="GridCell.Tab.2.bottom/70.34.1850.1046@70.34.1850.1046" timestamp="1571786900293" />
-    <state width="1358" height="447" key="GridCell.Tab.2.center" timestamp="1571786900292">
-      <screen x="70" y="34" width="1850" height="1046" />
+    <state width="854" height="332" key="GridCell.Tab.2.left/70.27.1296.741@70.27.1296.741" timestamp="1572212328443" />
+    <state width="854" height="332" key="GridCell.Tab.2.right" timestamp="1572212328444">
+      <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="911" height="261" key="GridCell.Tab.2.center/70.27.1296.741@70.27.1296.741" timestamp="1571711762247" />
-    <state width="1358" height="447" key="GridCell.Tab.2.center/70.34.1850.1046@70.34.1850.1046" timestamp="1571786900292" />
-    <state width="1358" height="447" key="GridCell.Tab.2.left" timestamp="1571786900292">
-      <screen x="70" y="34" width="1850" height="1046" />
+    <state width="854" height="332" key="GridCell.Tab.2.right/70.27.1296.741@70.27.1296.741" timestamp="1572212328444" />
+    <state x="301" y="143" width="824" height="515" key="IDE.errors.dialog" timestamp="1572197461221">
+      <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="911" height="261" key="GridCell.Tab.2.left/70.27.1296.741@70.27.1296.741" timestamp="1571711762247" />
-    <state width="1358" height="447" key="GridCell.Tab.2.left/70.34.1850.1046@70.34.1850.1046" timestamp="1571786900292" />
-    <state width="1358" height="447" key="GridCell.Tab.2.right" timestamp="1571786900293">
-      <screen x="70" y="34" width="1850" height="1046" />
+    <state x="301" y="143" width="824" height="515" key="IDE.errors.dialog/70.27.1296.741@70.27.1296.741" timestamp="1572197461221" />
+    <state x="201" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1572213839284">
+      <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="911" height="261" key="GridCell.Tab.2.right/70.27.1296.741@70.27.1296.741" timestamp="1571711762247" />
-    <state width="1358" height="447" key="GridCell.Tab.2.right/70.34.1850.1046@70.34.1850.1046" timestamp="1571786900293" />
-    <state x="269" y="34" width="1024" height="741" key="SettingsEditor" timestamp="1571783749072">
-      <screen x="70" y="34" width="1850" height="1046" />
+    <state x="201" y="27" width="1024" height="741" key="SettingsEditor/70.27.1296.741@70.27.1296.741" timestamp="1572213839284" />
+    <state x="313" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1572213997864">
+      <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state x="201" y="27" width="1024" height="741" key="SettingsEditor/70.27.1296.741@70.27.1296.741" timestamp="1571703720150" />
-    <state x="269" y="34" key="SettingsEditor/70.34.1850.1046@70.34.1850.1046" timestamp="1571783749072" />
-    <state x="504" y="313" key="com.intellij.ide.util.TipDialog" timestamp="1571783508758">
-      <screen x="70" y="34" width="1850" height="1046" />
+    <state x="313" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/70.27.1296.741@70.27.1296.741" timestamp="1572213997864" />
+    <state x="366" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1572202513502">
+      <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state x="374" y="225" key="com.intellij.ide.util.TipDialog/70.27.1296.741@70.27.1296.741" timestamp="1571709719530" />
-    <state x="504" y="313" key="com.intellij.ide.util.TipDialog/70.34.1850.1046@70.34.1850.1046" timestamp="1571783508758" />
+    <state x="366" y="225" key="com.intellij.ide.util.TipDialog/70.27.1296.741@70.27.1296.741" timestamp="1572202513502" />
   </component>
 </project>
