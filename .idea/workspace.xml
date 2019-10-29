@@ -6,7 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1355807b-32ea-4cb9-a453-9bfe86f77427" name="Default Changelist" comment="First commit" />
+    <list default="true" id="1355807b-32ea-4cb9-a453-9bfe86f77427" name="Default Changelist" comment="Update workspace.xml">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,18 +57,19 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docker-compose.yml" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.22558594" />
     <property name="project.structure.side.proportion" value="0.2768647" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.47">
     <configuration name="Tomcat 8.5.47" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.47" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/bmi_calculator_war/" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -139,6 +143,23 @@
         </option>
       </method>
     </configuration>
+    <configuration name="Docker Compose" type="docker-deploy" factoryName="docker-compose.yml" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="db" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.Docker Compose" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.47" />
+    </list>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -158,7 +179,9 @@
       <option name="presentableId" value="Default" />
       <updated>1572197439934</updated>
       <workItem from="1572197441313" duration="2511000" />
-      <workItem from="1572202513553" duration="2976000" />
+      <workItem from="1572202513553" duration="4518000" />
+      <workItem from="1572302720429" duration="3509000" />
+      <workItem from="1572388959820" duration="1102000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1572213976982</created>
@@ -167,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572213976982</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update workspace.xml">
+      <created>1572214307881</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572214307881</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,80 +205,89 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+    <MESSAGE value="Update workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update workspace.xml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="313" y="59" width="800" height="684" key="#Project_Structure" timestamp="1572202315686">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="313" y="59" width="800" height="684" key="#Project_Structure/70.27.1296.741@70.27.1296.741" timestamp="1572202315686" />
-    <state x="176" y="55" width="921" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1572202858253">
+    <state x="176" y="55" width="921" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1572389063633">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state x="176" y="55" width="921" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1296.741@70.27.1296.741" timestamp="1572202858253" />
-    <state width="854" height="332" key="GridCell.Tab.0.bottom" timestamp="1572212328442">
+    <state x="176" y="55" width="921" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.27.1296.741@70.27.1296.741" timestamp="1572389063633" />
+    <state x="478" y="289" width="307" height="223" key="DockerComposeFileDialog" timestamp="1572307796009">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="854" height="332" key="GridCell.Tab.0.bottom/70.27.1296.741@70.27.1296.741" timestamp="1572212328442" />
-    <state width="854" height="332" key="GridCell.Tab.0.center" timestamp="1572212328441">
+    <state x="478" y="289" width="307" height="223" key="DockerComposeFileDialog/70.27.1296.741@70.27.1296.741" timestamp="1572307796009" />
+    <state x="415" y="159" width="424" height="491" key="FileChooserDialogImpl" timestamp="1572307795093">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="854" height="332" key="GridCell.Tab.0.center/70.27.1296.741@70.27.1296.741" timestamp="1572212328441" />
-    <state width="854" height="332" key="GridCell.Tab.0.left" timestamp="1572212328439">
+    <state x="415" y="159" width="424" height="491" key="FileChooserDialogImpl/70.27.1296.741@70.27.1296.741" timestamp="1572307795093" />
+    <state width="854" height="332" key="GridCell.Tab.0.bottom" timestamp="1572390520618">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="854" height="332" key="GridCell.Tab.0.left/70.27.1296.741@70.27.1296.741" timestamp="1572212328439" />
-    <state width="854" height="332" key="GridCell.Tab.0.right" timestamp="1572212328442">
+    <state width="854" height="332" key="GridCell.Tab.0.bottom/70.27.1296.741@70.27.1296.741" timestamp="1572390520618" />
+    <state width="854" height="332" key="GridCell.Tab.0.center" timestamp="1572390520617">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="854" height="332" key="GridCell.Tab.0.right/70.27.1296.741@70.27.1296.741" timestamp="1572212328442" />
-    <state width="854" height="332" key="GridCell.Tab.1.bottom" timestamp="1572212328443">
+    <state width="854" height="332" key="GridCell.Tab.0.center/70.27.1296.741@70.27.1296.741" timestamp="1572390520617" />
+    <state width="854" height="332" key="GridCell.Tab.0.left" timestamp="1572390520616">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="854" height="332" key="GridCell.Tab.1.bottom/70.27.1296.741@70.27.1296.741" timestamp="1572212328443" />
-    <state width="854" height="332" key="GridCell.Tab.1.center" timestamp="1572212328442">
+    <state width="854" height="332" key="GridCell.Tab.0.left/70.27.1296.741@70.27.1296.741" timestamp="1572390520616" />
+    <state width="854" height="332" key="GridCell.Tab.0.right" timestamp="1572390520618">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="854" height="332" key="GridCell.Tab.1.center/70.27.1296.741@70.27.1296.741" timestamp="1572212328442" />
-    <state width="854" height="332" key="GridCell.Tab.1.left" timestamp="1572212328442">
+    <state width="854" height="332" key="GridCell.Tab.0.right/70.27.1296.741@70.27.1296.741" timestamp="1572390520618" />
+    <state width="854" height="332" key="GridCell.Tab.1.bottom" timestamp="1572390520624">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="854" height="332" key="GridCell.Tab.1.left/70.27.1296.741@70.27.1296.741" timestamp="1572212328442" />
-    <state width="854" height="332" key="GridCell.Tab.1.right" timestamp="1572212328443">
+    <state width="854" height="332" key="GridCell.Tab.1.bottom/70.27.1296.741@70.27.1296.741" timestamp="1572390520624" />
+    <state width="854" height="332" key="GridCell.Tab.1.center" timestamp="1572390520619">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="854" height="332" key="GridCell.Tab.1.right/70.27.1296.741@70.27.1296.741" timestamp="1572212328443" />
-    <state width="854" height="332" key="GridCell.Tab.2.bottom" timestamp="1572212328444">
+    <state width="854" height="332" key="GridCell.Tab.1.center/70.27.1296.741@70.27.1296.741" timestamp="1572390520619" />
+    <state width="854" height="332" key="GridCell.Tab.1.left" timestamp="1572390520618">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="854" height="332" key="GridCell.Tab.2.bottom/70.27.1296.741@70.27.1296.741" timestamp="1572212328444" />
-    <state width="854" height="332" key="GridCell.Tab.2.center" timestamp="1572212328443">
+    <state width="854" height="332" key="GridCell.Tab.1.left/70.27.1296.741@70.27.1296.741" timestamp="1572390520618" />
+    <state width="854" height="332" key="GridCell.Tab.1.right" timestamp="1572390520623">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="854" height="332" key="GridCell.Tab.2.center/70.27.1296.741@70.27.1296.741" timestamp="1572212328443" />
-    <state width="854" height="332" key="GridCell.Tab.2.left" timestamp="1572212328443">
+    <state width="854" height="332" key="GridCell.Tab.1.right/70.27.1296.741@70.27.1296.741" timestamp="1572390520623" />
+    <state width="854" height="332" key="GridCell.Tab.2.bottom" timestamp="1572390520625">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="854" height="332" key="GridCell.Tab.2.left/70.27.1296.741@70.27.1296.741" timestamp="1572212328443" />
-    <state width="854" height="332" key="GridCell.Tab.2.right" timestamp="1572212328444">
+    <state width="854" height="332" key="GridCell.Tab.2.bottom/70.27.1296.741@70.27.1296.741" timestamp="1572390520625" />
+    <state width="854" height="332" key="GridCell.Tab.2.center" timestamp="1572390520625">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state width="854" height="332" key="GridCell.Tab.2.right/70.27.1296.741@70.27.1296.741" timestamp="1572212328444" />
-    <state x="301" y="143" width="824" height="515" key="IDE.errors.dialog" timestamp="1572197461221">
+    <state width="854" height="332" key="GridCell.Tab.2.center/70.27.1296.741@70.27.1296.741" timestamp="1572390520625" />
+    <state width="854" height="332" key="GridCell.Tab.2.left" timestamp="1572390520624">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state x="301" y="143" width="824" height="515" key="IDE.errors.dialog/70.27.1296.741@70.27.1296.741" timestamp="1572197461221" />
-    <state x="201" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1572213839284">
+    <state width="854" height="332" key="GridCell.Tab.2.left/70.27.1296.741@70.27.1296.741" timestamp="1572390520624" />
+    <state width="854" height="332" key="GridCell.Tab.2.right" timestamp="1572390520625">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state x="201" y="27" width="1024" height="741" key="SettingsEditor/70.27.1296.741@70.27.1296.741" timestamp="1572213839284" />
-    <state x="313" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1572213997864">
+    <state width="854" height="332" key="GridCell.Tab.2.right/70.27.1296.741@70.27.1296.741" timestamp="1572390520625" />
+    <state x="301" y="143" width="824" height="515" key="IDE.errors.dialog" timestamp="1572390505561">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state x="313" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/70.27.1296.741@70.27.1296.741" timestamp="1572213997864" />
-    <state x="366" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1572202513502">
+    <state x="301" y="143" width="824" height="515" key="IDE.errors.dialog/70.27.1296.741@70.27.1296.741" timestamp="1572390505561" />
+    <state x="201" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1572390288362">
       <screen x="70" y="27" width="1296" height="741" />
     </state>
-    <state x="366" y="225" key="com.intellij.ide.util.TipDialog/70.27.1296.741@70.27.1296.741" timestamp="1572202513502" />
+    <state x="201" y="27" width="1024" height="741" key="SettingsEditor/70.27.1296.741@70.27.1296.741" timestamp="1572390288362" />
+    <state x="313" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1572214317007">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state x="313" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/70.27.1296.741@70.27.1296.741" timestamp="1572214317007" />
+    <state x="366" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1572388975841">
+      <screen x="70" y="27" width="1296" height="741" />
+    </state>
+    <state x="366" y="225" key="com.intellij.ide.util.TipDialog/70.27.1296.741@70.27.1296.741" timestamp="1572388975841" />
   </component>
 </project>
